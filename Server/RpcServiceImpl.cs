@@ -15,7 +15,7 @@ namespace RPCTest.server
                 using (var fs = File.Open(request.FileName, FileMode.Open))
                 // 从 request 中读取文件名并打开文件流 
                 {
-                    int count=1024*64;
+                    int count=1024*1024;
                     var remainingLength = fs.Length; // 剩余长度 
                     var buff = new byte[count]; // 缓冲区，这里我们设置为 1 Mb 
                     while (remainingLength > 0) // 若未读完则继续读取 
