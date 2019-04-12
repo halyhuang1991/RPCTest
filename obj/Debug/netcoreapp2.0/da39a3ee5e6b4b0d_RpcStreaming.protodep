@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp2.0/RpcStreaming.cs \
+obj\Debug\netcoreapp2.0/RpcStreamingGrpc.cs: RpcStreaming.proto

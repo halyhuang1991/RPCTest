@@ -1,0 +1,129 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "93d1cf396a3b5eceebb92bdecbd0b6060bd5fedf"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "RPCTest/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.6.1",
+          "Grpc": "1.20.0-pre3",
+          "Grpc.Tools": "1.20.0-pre3"
+        },
+        "runtime": {
+          "RPCTest.dll": {}
+        }
+      },
+      "Google.Protobuf/3.6.1": {
+        "runtime": {
+          "lib/netstandard1.0/Google.Protobuf.dll": {}
+        }
+      },
+      "Grpc/1.20.0-pre3": {
+        "dependencies": {
+          "Grpc.Core": "1.20.0-pre3"
+        }
+      },
+      "Grpc.Core/1.20.0-pre3": {
+        "dependencies": {
+          "Grpc.Core.Api": "1.20.0-pre3",
+          "System.Interactive.Async": "3.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux",
+            "assetType": "native"
+          },
+          "runtimes/linux/native/libgrpc_csharp_ext.x86.so": {
+            "rid": "linux",
+            "assetType": "native"
+          },
+          "runtimes/osx/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx",
+            "assetType": "native"
+          },
+          "runtimes/osx/native/libgrpc_csharp_ext.x86.dylib": {
+            "rid": "osx",
+            "assetType": "native"
+          },
+          "runtimes/win/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win",
+            "assetType": "native"
+          },
+          "runtimes/win/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win",
+            "assetType": "native"
+          }
+        }
+      },
+      "Grpc.Core.Api/1.20.0-pre3": {
+        "dependencies": {
+          "System.Interactive.Async": "3.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {}
+        }
+      },
+      "Grpc.Tools/1.20.0-pre3": {},
+      "System.Interactive.Async/3.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RPCTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D/h9IZl76jjfM5VlPzG235Zdys9RKXNLYbRGm2fa6Y2UshTqAvYBPIydNOvNTEa24DER/m/zvelHlLO9n1GtNQ==",
+      "path": "google.protobuf/3.6.1",
+      "hashPath": "google.protobuf.3.6.1.nupkg.sha512"
+    },
+    "Grpc/1.20.0-pre3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aHHtH3rDfPfIXg38Oz2Vb5zul463HSGaax7frCSkOZkuSii+xosbJ4roaTIai6Yr4SdJpxZmae/OlowrJPvxsA==",
+      "path": "grpc/1.20.0-pre3",
+      "hashPath": "grpc.1.20.0-pre3.nupkg.sha512"
+    },
+    "Grpc.Core/1.20.0-pre3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NTK+6ItWSccnQdVDGyDnPlLkynjfrgqSkY722fWpra2Xreldj7LAXxPigoOFEdOYTG+Xat3NjbgnkR0DVUwDFg==",
+      "path": "grpc.core/1.20.0-pre3",
+      "hashPath": "grpc.core.1.20.0-pre3.nupkg.sha512"
+    },
+    "Grpc.Core.Api/1.20.0-pre3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m2EoOe0NmyAQYf/9T7ygMjrqmG1CFibp69bkGEtS2wiJmtua2n8ipZDGCkqZsaW6PSnrHXfDS0p+ikl7a9+oeA==",
+      "path": "grpc.core.api/1.20.0-pre3",
+      "hashPath": "grpc.core.api.1.20.0-pre3.nupkg.sha512"
+    },
+    "Grpc.Tools/1.20.0-pre3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MUt9SDnH7BYotPkX9h/mRCqSvpuP/CCPwnmz07Hv//j05nfY3HLIVZayOYKguA/mebt8Jlju5TiV7De3qgdHQQ==",
+      "path": "grpc.tools/1.20.0-pre3",
+      "hashPath": "grpc.tools.1.20.0-pre3.nupkg.sha512"
+    },
+    "System.Interactive.Async/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oaK7GqF8/ORnipYZck5ec+eKgvfZFShH64CWFlYB8Mpnr8/e99klLSk9SsmnaDzr9n2X672sUU8ZCLLrq8leDw==",
+      "path": "system.interactive.async/3.2.0",
+      "hashPath": "system.interactive.async.3.2.0.nupkg.sha512"
+    }
+  }
+}

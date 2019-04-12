@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp2.0/MathService.cs \
+obj\Debug\netcoreapp2.0/MathServiceGrpc.cs: MathService.proto

@@ -1,0 +1,20 @@
+syntax = "proto3";
+service MathService 
+{
+  rpc Add (AddRequest) returns (AddReply) {}
+  rpc Multiply (MultiplyRequest) returns (MultiplyReply) {}
+}
+message AddRequest {
+  double First = 1;
+  double Second = 2;
+}
+message AddReply {
+  double Sum = 1;
+}
+message MultiplyRequest {
+  double First = 1;
+  double Second = 2;
+}
+message MultiplyReply {
+  double Result = 1;
+}

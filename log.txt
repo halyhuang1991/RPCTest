@@ -1,0 +1,32 @@
+dotnet build，这样就会在 ./obj/Debug/netcoreapp2.2下自动生成 RPC 调用和消息类型的代码
+./obj/Debug/netcoreapp2.2
+RpcStreaming.cs 中包含消息类型的定义，RpcStreamingGrpc.cs 中包含了对应 rpc 调用的函数原型。
+我们查找一下我们刚刚在 proto 文件中声明的 GetStreamContent
+
+
+gRpc服务端的创建，初始化nettyServer，nettyServer负责监听socket地址，实习基于HTTP2协议的写入
+绑定IDL定义服务接口实现类
+ServerImpl 负责整个 gRPC 服务端消息的调度和处理，创建 ServerImpl 实例过程中，会对服务端依赖的对象进行初始化
+
+http1 基于文本。基于文本协议的格式解析存在天然缺陷
+
+1.每个 TCP 连接本身需要经过 DNS 查询、三步握手、慢启动等，还占用额外的 CPU 和内存
+，对于服务器来说过多连接也容易造成网络拥挤、交通阻塞等
+2.每个 TCP 连接同时只能处理一个请求 - 响应
+3.Header 内容多
+4.为了尽可能减少请求数，需要做合并文件、雪碧图、资源内联等优化工作，但是这无疑造成了单个请求内容变大延迟变高的问题，且内嵌的资源不能有效地使用缓存机制
+5.明文传输不安全
+
+HTTP2.0 采用二进制格式
+1.每一个request都是是用作连接共享机制的。
+一个request对应一个id，这样一个连接上可以有多个request，每个连接的request可以随机的混杂在一起
+2.header压缩
+3.服务端推送
+
+
+echo "# RPCTest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:halyhuang1991/RPCTest.git
+git push -u origin master

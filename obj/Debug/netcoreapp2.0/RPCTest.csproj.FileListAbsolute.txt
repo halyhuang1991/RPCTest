@@ -1,0 +1,11 @@
+D:\C\github\RPCTest\bin\Debug\netcoreapp2.0\RPCTest.deps.json
+D:\C\github\RPCTest\bin\Debug\netcoreapp2.0\RPCTest.runtimeconfig.json
+D:\C\github\RPCTest\bin\Debug\netcoreapp2.0\RPCTest.runtimeconfig.dev.json
+D:\C\github\RPCTest\bin\Debug\netcoreapp2.0\RPCTest.dll
+D:\C\github\RPCTest\bin\Debug\netcoreapp2.0\RPCTest.pdb
+D:\C\github\RPCTest\obj\Debug\netcoreapp2.0\RPCTest.csprojResolveAssemblyReference.cache
+D:\C\github\RPCTest\obj\Debug\netcoreapp2.0\RPCTest.csproj.CoreCompileInputs.cache
+D:\C\github\RPCTest\obj\Debug\netcoreapp2.0\RPCTest.AssemblyInfoInputs.cache
+D:\C\github\RPCTest\obj\Debug\netcoreapp2.0\RPCTest.AssemblyInfo.cs
+D:\C\github\RPCTest\obj\Debug\netcoreapp2.0\RPCTest.dll
+D:\C\github\RPCTest\obj\Debug\netcoreapp2.0\RPCTest.pdb
